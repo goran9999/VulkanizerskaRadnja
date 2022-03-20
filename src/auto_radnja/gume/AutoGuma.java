@@ -1,5 +1,13 @@
 package auto_radnja.gume;
 
+
+/**
+ * 
+ * @author goran
+ * @version 1.0.0
+ *
+ */
+
 public class AutoGuma {
 
 	/**
