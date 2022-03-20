@@ -1,11 +1,19 @@
 package auto_radnja;
 
+/**
+ * @author goran
+ * @version 1.0.0
+ */
+
 import java.util.LinkedList;
 import java.util.List;
 
 import gume.AutoGuma;
 
 public class VulkanizerskaRadnja implements Radnja {
+	/**
+	 * Lista u kojoj cuvamo podatke o nasim gumama
+	 */
 	private List<AutoGuma> gume = new LinkedList<AutoGuma>();
 
 	@Override
