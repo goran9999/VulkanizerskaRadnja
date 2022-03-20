@@ -1,4 +1,4 @@
-package auto_radnja.gume;
+package gume;
 
 
 /**
