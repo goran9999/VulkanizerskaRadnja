@@ -2,6 +2,12 @@ package gume;
 
 
 /**
+ * Klasa AutoGuma koja sluzi da predstavi auto gumu kao enititet u sistemu.
+ * Ona cuva,u vidu atributa,podatke o gumi kao sto su marka i model,precnik,sirina i visina.
+ * Pored toga, omogucava nam, putem standardnih get i set metoda,manipulaciju nad atributima instance ove klase.
+ */
+
+/**
  * 
  * @author goran
  * @version 1.0.0

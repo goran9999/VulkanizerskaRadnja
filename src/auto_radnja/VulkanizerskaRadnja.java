@@ -1,6 +1,11 @@
 package auto_radnja;
 
 /**
+ * Klasa VulkanizerskaRadnja koja predstavlja vulkanizersku radnju kao entitet u nasem sistemu.
+ * Ova klasa prvenstveno sluzi za vodjenje evidencije o auto gumama i cuvanje podataka o njima.
+ */
+
+/**
  * @author goran
  * @version 1.0.0
  */

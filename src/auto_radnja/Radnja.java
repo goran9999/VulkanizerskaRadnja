@@ -1,6 +1,11 @@
 package auto_radnja;
 
 /**
+ * Interfejs Radnja,koji koristimo da bi definisali skup metoda kojim treba dati konkretnu implementaciju u
+ * klasama koje ga implementiraju.Ove metode su prvenstveno namenjene klasi VulkanizerskaRadnja(u trenutnoj verziji aplikacije).
+ */
+
+/**
  * @author goran
  * @version 1.0.0
  */

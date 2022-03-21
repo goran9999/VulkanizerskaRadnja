@@ -59,10 +59,8 @@ abstract class RadnjaTest {
 		radnja.dodajGumu(autoGuma2);
 		List<AutoGuma> gume=radnja.pronadjiGumu("Bridgestone 55");
 		assertEquals(2, gume.size());
-		assertEquals(gume.get(0).getMarkaModel(), gume.get(1).getMarkaModel());
-		assertNotEquals(gume.get(0).getSirina(), gume.get(1).getSirina());
-		assertNotEquals(gume.get(0).getVisina(), gume.get(1).getVisina());
-		assertNotEquals(gume.get(0).getPrecnik(), gume.get(1).getPrecnik());
+		assertTrue(gume.contains(autoGuma));
+		assertTrue(gume.contains(autoGuma2));
 		
 	}
 
